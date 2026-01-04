@@ -12,6 +12,9 @@ body{
     margin-right: 200px;
     border:2px solid #1D546D;
 }
+#project{
+    background-image: url("https://i.pinimg.com/736x/31/5e/09/315e09d46f6c3784ed889938fc7b2d8e.jpg");
+}
 a{
     color:white;
 }
@@ -68,8 +71,8 @@ a{
     margin-top: 20px;
 }
 .img_show{
-    height:100px;
-    width:100px;
+    height:50px;
+    width:50px;
 }
 #tooltext{
     font-family:Arial, Helvetica, sans-serif ;
