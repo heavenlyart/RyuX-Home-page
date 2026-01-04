@@ -1,0 +1,88 @@
+body{
+    background-image:url(hollow.jpg);
+    color:white;
+    background-size: cover;
+}
+#header{ 
+    height: 200px;
+}
+#gitavatar{
+    height:50px;
+    border-radius:50%;
+    margin-right: 200px;
+    border:2px solid #1D546D;
+}
+a{
+    color:white;
+}
+.link{
+    margin-right:200px;
+}
+#projectimg{
+    height: 100px;
+    border-radius: 7px;
+    margin:20px 190px 10px 225px;
+    border-color: white;
+    border: 2px;
+}
+#animeimg{
+     height:100px;
+     border-radius: 7px;
+     margin-bottom:12px ;
+     margin-right:185px;
+     border-color: white;
+     border: 2px;
+}
+#pointing1{
+    height:100px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    border-color: white;
+    border-width: 2px;
+}
+#container{
+    display: flex;
+    gap:400px;
+    align-items: center;
+}
+#intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    height: 100px;
+    width : 500px;
+}
+#avatarbox{
+    height:150px;
+    width:150px;
+}
+#avatar{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    border:5px solid #1D546D;
+}
+#langtext{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.img_show{
+    height:100px;
+    width:100px;
+}
+#tooltext{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+#friendtext{
+       font-family:Arial, Helvetica, sans-serif ;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.img_pfp{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
