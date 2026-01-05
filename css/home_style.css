@@ -1,19 +1,41 @@
+*{
+    font-family: "Comic Sans MS";
+}
 body{
     background-image:url(hollow.jpg);
     color:white;
     background-size: cover;
+    font-family: "Comic Sans MS";
 }
 #header{ 
-    height: 200px;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    color: aquamarine;
 }
+
 #gitavatar{
     height:50px;
     border-radius:50%;
-    margin-right: 200px;
     border:2px solid #1D546D;
 }
-#project{
+#projecting{
     background-image: url("https://i.pinimg.com/736x/31/5e/09/315e09d46f6c3784ed889938fc7b2d8e.jpg");
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+}
+#animeicon{
+    background-image: url("https://i.pinimg.com/736x/96/94/b5/9694b5eb1f55d6d27459537dac6451ca.jpg");
+    background-size: 120px 60px;
+    width: 120px;
+    height: 60px;
+}
+#contact{
+    background-image: url("https://i.pinimg.com/736x/cf/45/4b/cf454b787983248123526a03c88a2a46.jpg");
+    background-size: 120px 60px;
+    width: 120px;
+    height: 60px;
 }
 a{
     color:white;
@@ -21,21 +43,11 @@ a{
 .link{
     margin-right:200px;
 }
-#projectimg{
-    height: 100px;
-    border-radius: 7px;
-    margin:20px 190px 10px 225px;
-    border-color: white;
-    border: 2px;
+#text_av{
+    display: flex;
+    justify-content: space-between;
 }
-#animeimg{
-     height:100px;
-     border-radius: 7px;
-     margin-bottom:12px ;
-     margin-right:185px;
-     border-color: white;
-     border: 2px;
-}
+
 #pointing1{
     height:100px;
     border-radius: 7px;
